@@ -1,0 +1,57 @@
+/*css badoo style pagination*/
+
+div.badoo {
+	text-align:center;
+}
+div.badoo a {
+display:inline-block;
+margin-right: 3px;
+padding: 1px 9px;
+color: #666;
+height: 23px;
+line-height: 23px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+text-decoration: none;}
+div.badoo a:hover {
+padding:0 8px;
+	border:1px solid #eee;
+	background-color:#eee;
+	color:#666;
+	text-decoration:none}
+div.badoo span.current {
+	padding: 0 8px;
+border: 1px solid #690;
+background-color: #690;
+color: #fff;
+margin-right: 3px;
+display:inline-block;
+height: 23px;
+line-height: 23px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+div.badoo span.disabled {
+display:inline-block;
+margin-right: 3px;
+padding: 1px 9px;
+height: 23px;
+line-height: 23px;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+text-decoration: none;
+background:none;
+}
+div.badoo select{
+	margin:0 5px;
+	border-color: #d0d0d0;
+	border-top-color: #acacac;
+}
+
+
+
+
+
